@@ -1,0 +1,20 @@
+.html {
+  font-size: 16px;
+}
+
+.timeline-container {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: medium;
+  color: #1e293b;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+.span-heading {
+  color: #2b237c;
+}

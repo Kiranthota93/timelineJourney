@@ -1,0 +1,40 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+.image-details {
+  align-self: center;
+  width: 70%;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .image-details {
+    width: 90%;
+  }
+}
+.project-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project-header h1 {
+  color: #1e293b;
+}
+
+.duration-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-link {
+  color: #0967d2;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.project-link:visited {
+  color: #2b237c;
+}
